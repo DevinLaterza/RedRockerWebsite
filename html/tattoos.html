@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoos - Red Rocker Tattoos & Body Piercings</title>
+    <link rel="stylesheet" href="../style/style2.css">
+    <meta name="description" content="View our current photo gallery to see why we're making some serious waves here in Galveston.">
+    <meta name="author" content="Devin Laterza">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker:regular" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Reggae+One:regular" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <!--link rel="stylesheet" href="cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /-->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+  <div class="bgImage">
+    <header>
+        <div class="container">
+          <div id="branding">
+            
+              <a href="../index.html">
+              <img src="../images/logo1transparentBlurred2.png" alt="Red Rocker Tattoos logo"></a>
+              <h2>"The cleanest<br>tattoo shop<br>in Galveston!"
+            </h2>
+  
+          <nav>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="piercings.html">Piercings</a></li>
+              <li><a href="tattoos.html">Tattoos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          </div>
+        </div>
+
+     </header>
+  
+     <section id="showcaseTattoos">
+        <div class="container">
+          <div id="marquee"> <!--Marquee Heading-->
+            <h1>Our Artists:</h1>
+            <h3>(Click to view galleries)</h3>
+            <h2><a href="connieGallery.html">Connie</a></h2><br>
+            <a href="connieGallery.html"><img src="../images/connieTatts/connie15.jpg" alt="Connie Ralls - Red Rocker Tattoos & Body Piercings"></a>
+          </div>
+         <br>
+         <br>
+          
+          <br>
+          <br>
+          <h2><a href="rickyGallery.html">Ricky</a></h2><br>
+          <a href="rickyGallery.html"><img src="../images/rickyTatts/ricky21.jpg" alt="Ricky Tucker - Red Rocker Tattoos & Body Piercings"></a>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+      
+  </section>
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+  
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+  
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("slides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+  </script>
+</div>
+</body>
+</html>

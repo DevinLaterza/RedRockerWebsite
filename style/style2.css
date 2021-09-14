@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker:regular");
+@import url("https://fonts.googleapis.com/css?family=Reggae+One:regular");
+
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.bgImage
+{
+  background-image: url("../images/tropical-paradise.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  z-index: -1;
+  text-align: center;
+}
+
+#branding h2
+{
+  text-shadow: 2px 2px #272424;
+}
+.bgImageAbout
+{
+  background-image: url("../images/tropical-paradise.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  z-index: -1;
+  text-align: center;
+}
+
+.container{
+  overflow: hidden;
+  height: 100%
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Permanent marker;
+  font-size: 24px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  animation: fadein 3s;
+}
+
+header h2{
+  display: inline;
+  font-family: Permanent Marker;
+  margin-right: 2%;
+  margin-top: 0%;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: right;
+  float: right;
+  animation: fadein 3s;
+}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 20px 0 20px;
+
+}
+
+ nav {
+  float: right;
+  margin-top: 6%;
+  background-color: black;
+}
+
+header .highlight, header .current a {
+  color: #32a0c2;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #32e0e6;
+  font-weight: bold;
+}
+
+header img
+{
+  margin: 0;
+  margin-left: 0;
+  display: inline;
+  float: left;
+  width: 600px;
+  height: 200px;
+  padding: 0px;
+  width: 50%;
+  animation: fadein 3s;
+}
+
+#showcase
+{
+  background-size: auto;
+  margin-right: 0%;
+  text-align: center;
+  background:  rgba(67, 67, 80, 0.6);
+  background-size: cover;
+  margin-bottom: 0;
+  border: 2px solid black;
+
+}
+
+#showcaseAbout{
+  min-height: 475px;
+  background-size: auto;
+  text-align: center;
+}
+
+#showcase h1{
+  margin-top: 3%;
+  font-family: Reggae One;
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-style: italic;
+  animation: fadein 3s;
+}
+
+
+#showcase h2
+{
+  font-family: Reggae One;
+  padding: 4px;
+  text-decoration: none;
+  animation: fadein 3s;
+}
+
+
+#showcase h3
+{
+  font-family: Reggae One;
+  padding: 3px;
+  text-decoration: none;
+  animation: fadein 3s;
+}
+
+#showcase a
+{
+  text-decoration: none;
+}
+
+#showcase a:visited
+{
+  color: black;
+}
+
+#showcase a:hover
+{
+  color: #32a0c2;
+}
+
+#showcase p{
+  font-family: Reggae One;
+  font-size: 20px;
+  padding: 10px;
+  animation: fadein 3s;
+}
+
+#table
+{
+  display: table;
+  width: 100%;
+}
+#left-col
+{
+  border-style: ridge;
+  border-color: #695b5b;
+  border-radius: 10px;
+  display: table-cell;
+  width: 50%;
+  background-color: rgba(218, 180, 180, .3);
+}
+#right-col
+{
+  border-style: ridge;
+  border-color: #695b5b;
+  border-radius: 10px;
+  display: table-cell;
+  width: 50%;
+  padding: 10px;
+  background-color: rgba(218, 180, 180, .3);
+}
+
+#showcase h4, ul
+{
+  display: inline;
+  font-family: Reggae One;
+  animation: fadein 3s;
+  margin: 0px;
+}
+
+
+.slides
+{
+  display:none;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+  .topnav
+  {
+    overflow: hidden;
+  }
+
+  .topnav a
+  {
+    display: inline;
+  }
+
+  #showcaseAbout{
+
+    background-size: auto;
+    margin-right: 0%;
+    text-align: center;
+    background:  rgba(67, 67, 80, 0.6);
+    background-size: cover;
+    margin-bottom: 0;
+    border: 2px solid black;
+  
+  }
+
+  #showcaseAbout img
+  {
+    width: 500px; 
+    height: 400px; 
+    display: block; 
+    margin: auto; 
+    padding: 10px 10px 10px 10px;
+  }
+  
+  #showcaseAbout h1{
+    margin-top: 3%;
+    font-family: Reggae One;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-style: italic;
+    animation: fadein 3s;
+  }
+
+  #conniePics h2
+  {
+    font-family: 'Reggae One';
+  }
+
+#showcaseAbout p{
+  font-family: Reggae One;
+  font-size: 20px;
+  padding: 10px;
+  animation: fadein 3s;
+}
+
+#showcasePiercings{
+  background-size: auto;
+  margin-right: 0%;
+  text-align: center;
+  background:  rgba(67, 67, 80, 0.6);
+  background-size: cover;
+  margin-bottom: 0;
+  border: 2px solid black;
+
+}
+
+#showcasePiercings img
+{
+  width: 500px; 
+  height: 200px; 
+  display: block; 
+  margin: auto; 
+  padding: 20px 10px 10px 10px;
+}
+
+#showcasePiercings h1{
+  margin-top: 3%;
+  font-family: Reggae One;
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-style: italic;
+  animation: fadein 3s;
+}
+
+#showcasePiercings p, li{
+font-family: Reggae One;
+font-size: 20px;
+padding: 10px;
+animation: fadein 3s;
+}
+#showcaseTattoos{
+  background-size: auto;
+  margin-right: 0%;
+  text-align: center;
+  background:  rgba(67, 67, 80, 0.6);
+  background-size: cover;
+  margin-bottom: 0;
+  border: 2px solid black;
+
+}
+
+#showcaseTattoos h1{
+  margin-top: 3%;
+  font-family: Reggae One;
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-style: italic;
+  animation: fadein 3s;
+}
+
+#showcaseTattoos h2
+{
+  font-family: Reggae One;
+  padding: 4px;
+  text-decoration: none;
+  animation: fadein 3s;
+}
+
+#showcaseTattoos h3
+{
+  font-family: Reggae One;
+  padding: 3px;
+  text-decoration: none;
+  animation: fadein 3s;
+}
+
+#showcaseTattoos img
+{
+  width: 300px;
+  height: 200px;
+}
+
+#showcaseTattoos a
+{
+  text-decoration: none;
+}
+
+#showcaseTattoos a:visited
+{
+  color: black;
+}
+
+#showcaseTattoos a:hover
+{
+  color: #32a0c2;
+}
+
+  @media only screen and (max-width : 1601px)
+  {
+    
+    header img 
+    {
+      display: block;
+    }
+  }
+  @media only screen and (max-width : 1200px) {
+    body 
+    {
+      background-size: 1024px 1366px;
+    }
+
+    .bgImage
+    {
+      background-size: 1024px 1366px;
+    }
+
+  }
+  
+  @media only screen and (max-width : 979px) {
+  
+  }
+  
+  @media only screen and (max-width : 767px) {
+    header a 
+    {
+      font-size: 14px;
+    }
+
+    header h1 
+    {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width : 480px) 
+  {
+    #table p, li
+    {
+      font-size: 14px;
+    }
+    #left-col
+    {
+      width: 10%;
+      height: 3px;
+    }
+    #right-col p
+    {
+      line-height: 190%;
+    }
+    header li
+    {
+      font-size: 14px;
+      padding: 8px;
+      margin: auto;
+    }
+    header a 
+    {
+      font-size: 12px;
+    }
+
+    header img
+    {
+      width: 300px;
+      height: 100px;
+    }
+
+    #showcase h1 
+    {
+      font-size: 40px;
+    }
+
+    #showcase h3
+    {
+      font-size: 16px;
+    }
+
+    #showcase h2
+    {
+      font-size: 16px;
+    }
+    .bgImageAbout
+    {
+      background-size: 1600px 1600px;
+    }
+
+    #showcaseAbout img
+    {
+      width: 300px;
+      height: 280px;
+      display: block;
+      margin: 0 auto;
+
+    }
+
+    #showcasePiercings img
+    {
+      width: 300px;
+      height: 200px;
+      display: block;
+      margin: 0 auto;
+
+    }
+
+    #conniePics img
+    {
+      width: 100%;
+      height: 150px;
+      display: block;
+      margin: 0 auto;
+    }
+    
+    header h1 
+    {
+      font-size: 10px;
+      float: right;
+      line-height: 30px;
+    }
+  }
+  
+
+  
+  @media only screen and (max-width : 320px) {
+    header a 
+    {
+      font-size: 11px;
+    }
+
+    body 
+    {
+      background-size: 320px 568px;
+    }
+
+    body:before
+    {
+      content:"";
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: -10;
+      background: url("../images/tropical-paradise.png");
+    }
+  }
+
+  #slideshowContainer
+  {
+    max-width: 400px;
+    max-height: 500px;
+    align-content: center;
+    max-width: 50%;
+    margin: auto;
+    height: auto;
+  }
+
+  #slideshowContainerTattoos
+  {
+    max-width: 400px;
+    height: 900px;
+    align-content: center;
+    margin: auto;
+  }
+
+  #conniePics
+  {
+    text-align: center;
+  }
+
+  #conniePics img
+  {
+    display: block;
+    width: 180px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #conniePics a
+  {
+    font-family: Reggae One;
+    font-size: 16px;
+  }
+
